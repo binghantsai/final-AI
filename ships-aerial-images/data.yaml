@@ -1,6 +1,6 @@
-train: /ships-aerial-images/train/images
-val: /ships-aerial-images/valid/images
-test: /ships-in-aerial-images/test/images
+train: C:\科展程式\ships-aerial-images\train\images
+val: C:\科展程式\ships-aerial-images\valid\images
+test: C:\科展程式\ships-aerial-images\test\images
 
 nc: 1
 names: ['ship']
