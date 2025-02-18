@@ -1,8 +1,8 @@
 from ultralytics import YOLO
 
-img = './OIP_1.jpg'
+img = './OIP.jpg'
 # Load a pre-trained YOLOv10n model
-model = YOLO("train_1/runs/detect/weights/best.pt")
+model = YOLO("train_1/runs/detect/train/weights/best.pt")
 
 # Perform object detection on an image
 results = model(img)
