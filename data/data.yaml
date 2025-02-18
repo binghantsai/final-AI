@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['lie', 'sit', 'stand']
+
+roboflow:
+  workspace: detecthuman-3gdgv
+  project: detect-sihrj
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/detecthuman-3gdgv/detect-sihrj/dataset/3
