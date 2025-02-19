@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolo11n.pt
-data: /content/data/data.yaml
+data: C:/科展程式/data/data.yaml
 epochs: 50
 time: null
 patience: 100
